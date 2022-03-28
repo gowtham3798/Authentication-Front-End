@@ -40,10 +40,7 @@ export default  function SignIn() {
  
 const formValidationSchema=yup.object({
   email: yup.string().matches(/^[\w._-]+[+]?[\w._-]+@[\w.-]+\.[a-zA-Z]{2,6}$/,'Invalid email').required('No email provided.'),
-  password:yup.string()
-  .required('No password provided.') 
-  .min(8, 'Password is too short - should be 8 chars minimum.')
-  .matches(/[a-zA-Z]/, 'Password can only contain Latin letters.')
+  password:yup.string().min(8).required('password is required')
 })
 
 const formik = useFormik({
