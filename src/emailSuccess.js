@@ -1,5 +1,5 @@
 import React from 'react';
-// import {useHistory} from 'react-router-dom'
+import Button from '@mui/material/Button';
 import { useNavigate } from "react-router-dom";
 import './emailSuccess.css';
 
@@ -17,7 +17,7 @@ export default function EmailSuccess() {
     <p id='message'>
       Congratulations, your account has been successfully created.
     </p>
-    <a onClick={() => history('/signin')} id="contBtn">Continue</a>
+    <Button onClick={() => history('/signin')} color="success" id="contBtn">Continue</Button>
   </div>
 </div>
   )
