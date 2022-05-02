@@ -8,7 +8,7 @@ import CardContent from '@mui/material/CardContent';
 import Button from '@mui/material/Button';
 import Typography from '@mui/material/Typography';
 import AccountCircleIcon from '@mui/icons-material/AccountCircle';
-import './App.css'
+import './AuthenticationApp.css'
 
 
 export default function Success() {

@@ -6,7 +6,7 @@ import CardActions from '@mui/material/CardActions';
 import CardContent from '@mui/material/CardContent';
 import Button from '@mui/material/Button';
 import Typography from '@mui/material/Typography';
-import './App.css'
+import './AuthenticationApp.css'
 
 export default function Failed() {
     const history = useNavigate()

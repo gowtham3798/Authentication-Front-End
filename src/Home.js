@@ -12,13 +12,6 @@ const Home = () => {
     const history = useNavigate()
     return(
         <div>
-            {/* <div></div>
-            <h1>
-               welcome to our site
-            </h1>
-            <h1 size={27}>
-               feel free to explore
-            </h1> */}
             <Card sx={{ minWidth: 650,minHeight:250 ,backgroundColor: '#a6a6a6' ,color: 'white',justifyContent: 'center'}}className="success-msg">
              <CardContent sx={{marginTop:3}}>
                  <Typography variant="h3" component="div">
